@@ -15,7 +15,6 @@ document.getElementById('kalkulator').addEventListener('submit', function(event)
         result = number1 / number2;
     } else {
         result = "Invalid operation";
-    }
 
     // Menampilkan hasil di halaman
     document.getElementById('result').textContent = "Result: " + result;
